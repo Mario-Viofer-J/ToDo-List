@@ -1,0 +1,125 @@
+body {
+    font-family: "Bitcount Prop Double Ink", system-ui;
+    justify-items: center;
+}
+
+.bg-image {
+    background-image: url("stars.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: blur(1.5px);
+    -webkit-filter: blur(1.5px);
+}
+
+p {
+    font-size: 50px;
+}
+
+.inputdiv {
+    display: flex;
+    justify-content: center;
+}
+
+.todo-action-inputs, .todo-date-inputs {
+    width: 200px;
+    height: 50px;
+    border: 3px solid;
+    border-color: #89669a;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Bitcount Prop Single Ink", system-ui;
+    margin-right: 15px;
+    box-shadow: 4px 4px 15px 0 #89669a;
+}
+
+.todo-add-button {
+    width: 200px;
+    height: 50px;
+    background-color: #000000;
+    border: 2px, solid;
+    border-radius: 5px;
+    font-family: "Bitcount Grid Double", system-ui;
+    color: white;
+    border-color: rgb(255, 255, 255);
+    transition: background-color 0.15s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+}
+
+.todo-add-button:hover {
+    cursor: pointer;
+    background-color: white;
+    border: 2px, solid;
+    border-color: #89669a;
+    color: black;
+    box-shadow: 4px 4px 10px 0 #89669a;
+    transform: scale(1.05);
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    font-family: "Bitcount Grid Double", system-ui;
+    color: white;
+}
+
+.todo-list-content {
+    display: flex;
+    margin-top: 15px;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.cre-space {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.del-btn {
+    background-color: red;
+    border: 0;
+    width: 80px;
+    height: 30px;
+    color: white;
+    border-radius: 3px;
+    font-family: "Bitcount Grid Double", system-ui;
+    box-shadow: 3px 3px 15px 0 rgba(255, 62, 62, 0.6);
+    transition: transform 0.2s ease-in-out;
+}
+
+.del-btn:hover {
+    cursor: pointer;
+    background-color: rgb(221, 1, 1);
+    box-shadow: 4px 4px 15px 0 rgba(255, 62, 62, 0.650);
+    transform: scale(1.12);
+}
+
+table , td, tr {
+    border: 1px solid #89669a;
+}
+
+td {
+    width: 150px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.main-div {
+    border: solid white;
+    text-align: center;
+    padding: 30px 40px;
+    width: 800px;
+    margin-top: 60px;
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 15px 0 white;
+}
