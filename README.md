@@ -49,6 +49,9 @@ ToDo-List/
 2. Open the index.html file in your browser.
 
 
+### Preview
+<img width="1917" height="923" alt="Screenshot from 2025-09-28 23-56-13" src="https://github.com/user-attachments/assets/70780a53-ecd9-445f-a1a8-6914b1a3e4a3" />
+
 ## Technologies Used
 
 HTML5
